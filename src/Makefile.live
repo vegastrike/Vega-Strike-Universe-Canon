@@ -9,6 +9,6 @@ nomencldef.tex:
 
 ## cleaning
 clean:
-	-rm -f *.pdf *.toc *.lof *.lot *.aux *.bbl *.d *.log *.out *.blg *.idx *.ilg *.ind *.glg *.gls *.glo
+	-rm -f *.pdf *.toc *.lof *.lot *.aux *.bbl *.d *.log *.out *.blg *.idx *.ilg *.ind *.glg *.gls *.glo nomencldef.tex
 
 
