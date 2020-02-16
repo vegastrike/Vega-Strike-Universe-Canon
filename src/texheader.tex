@@ -1,4 +1,8 @@
-\documentclass[11pt]{report}
+\documentclass[12pt]{report}
+
+\usepackage[english]{datetime2}
+\DTMsetdatestyle{iso}
+
 %\usepackage{latex8}
 \usepackage{times}
 \usepackage{graphicx,ifthen,subfigure}
@@ -17,6 +21,7 @@
 %\renewcommand{\bottomfraction}{1.0}
 %\renewcommand{\textfraction}{0}
 %\renewcommand{\floatpagefraction}{1}
+\renewcommand{\familydefault}{\sfdefault}
 
 \input{remark}
 %%\remarktrue
@@ -71,3 +76,7 @@
 %\footheight 0.0in
 \topmargin -.5in
 \setstretch{1.18181818181818}
+
+% no horizontal indent for paragraphs
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
