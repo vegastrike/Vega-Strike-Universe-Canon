@@ -3,6 +3,14 @@
 \usepackage[english]{datetime2}
 \DTMsetdatestyle{iso}
 
+% set A4 paper geometry
+\usepackage{geometry}
+\geometry{ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+
 %\usepackage{latex8}
 \usepackage{times}
 \usepackage{graphicx,ifthen,subfigure}
@@ -14,6 +22,8 @@
 \makeindex
 \makeglossary
 %\pagestyle{empty}
+% correctly line break long urls
+\usepackage{xurl}
 
 \newcommand{\ignore}[1]{}
 
